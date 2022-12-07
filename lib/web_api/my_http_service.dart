@@ -7,8 +7,7 @@ import '../modal/meter_modal.dart';
 import '../modal/metermodal_modal.dart';
 
 class HttpService {
-  // final String postsURL = "http://193.109.135.83:15003/Service1.svc";
-  final String postsURL = "http://192.168.1.25/SayacTakipService/Service1.svc";
+  final String postsURL = "service_address";
 
 //Firma listesini getirmek için kullanılacak method.
   Future<List<Firm>> getPosts() async {
